@@ -5,12 +5,12 @@
 Summary:	Lines for KDE
 Summary(pl.UTF-8):	Gra Lines dla KDE
 Name:		kde4-%{orgname}
-Version:	4.13.0
+Version:	4.13.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	946e6a14b5c520f58b1d9bced4931ddb
+# Source0-md5:	a2af5f14b24153207f43cef496b14eb2
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
